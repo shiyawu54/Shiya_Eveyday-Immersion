@@ -11,7 +11,7 @@ using UnityEngine.Events;
 public class OnTrigger : MonoBehaviour
 {
     [Tooltip("Only the objects with this tag name can trigger this. Can be left blank.")]
-    public string requiredTag = string.Empty;
+    public string requiredTag = String.Empty;
 
     [Serializable] public class TriggerEvent : UnityEvent<Collider> { }
 
